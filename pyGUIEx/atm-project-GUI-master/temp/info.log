@@ -1,0 +1,52 @@
+[ATM]:[02/04/2019 10:29:40 AM]:WARNING:couldn't recognize data in image file "Data\icon.ico"
+[ATM]:[02/04/2019 10:30:02 AM]:DEBUG:user selected login
+[ATM]:[02/04/2019 10:30:02 AM]:INFO:creating a new file as 'Data\userdata.csv' in dir 'C:\Users\Welcome\Documents\PythonProjects\atm-project-GUI-master' 
+[ATM]:[02/04/2019 10:30:02 AM]:WARNING:no match found with username:admin
+[ATM]:[02/04/2019 10:30:06 AM]:WARNING:couldn't recognize data in image file "Data\icon.ico"
+[ATM]:[02/04/2019 10:30:06 AM]:DEBUG:creating entries....
+[ATM]:[02/04/2019 10:30:06 AM]:DEBUG:creating buttons ....
+[ATM]:[02/04/2019 10:31:00 AM]:INFO:user selected account type as Gold
+[ATM]:[02/04/2019 10:31:00 AM]:DEBUG:creating a new account
+[ATM]:[02/04/2019 10:31:00 AM]:INFO:checking first name...
+[ATM]:[02/04/2019 10:31:00 AM]:INFO:checking last name...
+[ATM]:[02/04/2019 10:31:00 AM]:INFO:return full name with no middle name
+[ATM]:[02/04/2019 10:31:00 AM]:DEBUG:checking CNIC : 0123456789123
+[ATM]:[02/04/2019 10:31:00 AM]:INFO:CNIC checked...
+[ATM]:[02/04/2019 10:31:00 AM]:INFO:creating account number using name :Ram Sundar
+[ATM]:[02/04/2019 10:31:00 AM]:INFO:user entered correct information and now prompting user for pin...
+[ATM]:[02/04/2019 10:31:00 AM]:DEBUG:creating entries...
+[ATM]:[02/04/2019 10:31:00 AM]:DEBUG:creating buttons....
+[ATM]:[02/04/2019 10:31:14 AM]:INFO:pin matched successfully
+[ATM]:[02/04/2019 10:31:14 AM]:INFO:account no generated successfully
+[ATM]:[02/04/2019 10:31:47 AM]:DEBUG:writing data in file
+[ATM]:[02/04/2019 10:31:47 AM]:INFO:data written successfully in file : userdata.csv
+[ATM]:[02/04/2019 10:31:57 AM]:DEBUG:user selected login
+[ATM]:[02/04/2019 10:31:57 AM]:DEBUG:username match found in data with name : ram sundar
+[ATM]:[02/04/2019 10:31:57 AM]:DEBUG:user entered correct pin
+[ATM]:[02/04/2019 10:32:19 AM]:WARNING:couldn't recognize data in image file "Data\icon.ico"
+[ATM]:[02/04/2019 10:32:19 AM]:DEBUG:creating entries....
+[ATM]:[02/04/2019 10:32:19 AM]:DEBUG:creating buttons ....
+[ATM]:[02/04/2019 10:32:21 AM]:INFO:user selected account type as Silver
+[ATM]:[02/04/2019 10:32:21 AM]:DEBUG:creating a new account
+[ATM]:[02/04/2019 10:32:21 AM]:INFO:checking first name...
+[ATM]:[02/04/2019 10:32:21 AM]:WARNING:first name invalid : ''
+[ATM]:[02/04/2019 10:32:21 AM]:DEBUG:checking CNIC : 
+[ATM]:[02/04/2019 10:32:21 AM]:WARNING:invalid CNIC : 
+[ATM]:[02/04/2019 10:32:21 AM]:WARNING:user entered invalid name
+[ATM]:[02/04/2019 10:32:27 AM]:INFO:user selected account type as Silver
+[ATM]:[02/04/2019 10:32:27 AM]:DEBUG:creating a new account
+[ATM]:[02/04/2019 10:32:27 AM]:INFO:checking first name...
+[ATM]:[02/04/2019 10:32:27 AM]:INFO:checking last name...
+[ATM]:[02/04/2019 10:32:27 AM]:WARNING:last name invalid : ''
+[ATM]:[02/04/2019 10:32:27 AM]:DEBUG:checking CNIC : 
+[ATM]:[02/04/2019 10:32:27 AM]:WARNING:invalid CNIC : 
+[ATM]:[02/04/2019 10:32:27 AM]:WARNING:user entered invalid name
+[ATM]:[02/04/2019 10:32:30 AM]:INFO:user selected account type as Silver
+[ATM]:[02/04/2019 10:32:30 AM]:DEBUG:creating a new account
+[ATM]:[02/04/2019 10:32:30 AM]:INFO:checking first name...
+[ATM]:[02/04/2019 10:32:30 AM]:INFO:checking last name...
+[ATM]:[02/04/2019 10:32:30 AM]:INFO:return full name with no middle name
+[ATM]:[02/04/2019 10:32:30 AM]:DEBUG:checking CNIC : 
+[ATM]:[02/04/2019 10:32:30 AM]:WARNING:invalid CNIC : 
+[ATM]:[02/04/2019 10:32:30 AM]:WARNING:user entered invalid CNIC : False
+[ATM]:[02/04/2019 10:32:35 AM]:INFO:exiting window
