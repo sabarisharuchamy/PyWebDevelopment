@@ -24,6 +24,13 @@ print(type(x))
 x = str("Hello World")#not recommended #Created by using constructor
 print(x)
 print(type(x))
+#There are four collection data types in the Python programming language:
+
+#List - ordered,indexed,changeable,allows duplicate values,element access.
+#Tuple - ordered,indexed,unchangeable,allows duplicate values,element access.
+#Set - unordered,unindexed,only element access,No duplicate values.
+#Dictionary - unordered, changeable, indexed[key],Unique Key[string or numeric constant],No duplicate key but duplicate value is allowed.
+
 #Sequence Data Type
 #list
 x = ['Zoom','Boom','Zoom','5',3,6]
