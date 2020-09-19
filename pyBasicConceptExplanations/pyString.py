@@ -27,13 +27,14 @@ print(x,y,z)
 
 #slicing
 z = 'Sree rama!'
-print(z[0])
-print(z[4:])
-print(z[:4])
-print(z[-1])
-print(z[-4:])
-print(z[-8:])
-print(z[:-1])
+print(z[0])#S
+print(z[4:])# rama!
+print(z[:4])#Sree
+print(z[-1])#!
+print(z[-4:])#ama!
+print(z[-8:])#ee rama!
+print(z[:-1])#Sree rama
+print(z[-6:-1])# rama
 
 #len()
 print(len(z))
