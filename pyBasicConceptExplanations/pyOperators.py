@@ -187,3 +187,5 @@ print(x == z)#True #Contains same values
 print(x is z)#True #Contains same values and share same instance
 
 #is not
+print(x is not y)#True
+print(x is not z)#False

@@ -145,34 +145,38 @@ else:
 #Bytes
 #bytes() returns an immutable bytes object.
 x = b"Hello"
-print(type(x))
-print(x)
+print(type(x))#<class 'bytes'>
+print(x)#b'Hello'
 x = bytes(5)
-print(type(x))
-print(x)
+print(type(x))#<class 'bytes'>
+print(x)#b'\x00\x00\x00\x00\x00'
 x = bytes([1,2,3,4,5])
 #x[3]=2 #Uncomment for error #Bytes - Cannot change value
-print(type(x))
-print(x)
+print(type(x))#<class 'bytes'>
+print(x)#b'\x01\x02\x03\x04\x05'
 x = bytes('hello','utf-8')
-print(type(x))
-print(x)
+print(type(x))#<class 'bytes'>
+print(x)#b'hello'
 
 #ByteArray - is mutable
 x = bytearray(5)
-print(type(x))
-print(x)
+print(type(x))# <class 'bytearray'>
+print(x)# bytearray(b'\x00\x00\x00\x00\x00')
 a=bytearray([1,2,3,4,5])
-print(a)
+print(a)# bytearray(b'\x01\x02\x03\x04\x05')
 a[4]=3
-print(a)
+print(a)# bytearray(b'\x01\x02\x03\x04\x03')
 
 #MemoryView
 a=bytes(4)
-print(memoryview(a))
+print(memoryview(a))#<memory at 0x00000149DEB6B580>
 for i in memoryview(a):
-    print(i)#prints 0
-print(memoryview(bytes([1,2,3,4,5])))
+    print(i)#prints 
+    #0
+    #0
+    #0
+    #0
+print(memoryview(bytes([1,2,3,4,5])))#<memory at 0x00000149DEB6B580>
 for i in memoryview(bytes([1,2,3,4,5])):
     print(i)#prints 1,2,3,4,5
 print(memoryview(bytearray([1,2,3,4,5])))
@@ -181,5 +185,13 @@ for i in memoryview(bytearray([1,2,3,4,5])):
 for i in memoryview(bytes('hello','utf-8')):
     print(i)#prints 104,101,108,108,111
 
-print(ord('H'))
-print(chr(104))
+print(ord('H'))#72
+print(chr(104))#h
+
+
+
+
+
+
+
+
